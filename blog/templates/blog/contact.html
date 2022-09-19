@@ -1,0 +1,83 @@
+{% extends 'blog/base.html' %}
+
+{% load static %}
+
+
+
+{% block content %}
+
+    <div class="col-sm-10">
+        <h3 class="text-white my-5">Contact Page</h3>
+        <div class="row text-white mb-2">
+            <p class="mx-auto mb-4 cp">
+                Do you have any questions? Please don't hesitate to contact. I will come back to you within a matter of hours to help you.
+            </p>
+    
+            <div class="col-sm-9 mb-5">
+    
+                <form action="">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name :</label>
+                        <input name='name' type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
+                    </div>
+    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email :</label>
+                        <input name='email' type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+    
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone :</label>
+                        <input name='phone' type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                    </div>
+    
+                    <div class="mb-3">
+                        <label for="desc" class="form-label">Message : </label>
+                        <textarea name='desc' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+    
+            <div class="col-sm-3 text-center">
+                <ul class="list-unstyled cu">
+                    <li>
+                        <i class="fa-solid fa-location-dot fa-2x  i-color mt-4"></i>
+                        <p>Malir, Karachi, Pakistan</p>
+                    </li>
+    
+                    <li>
+                        <i class="fa-solid fa-phone fa-2x  i-color mt-4"></i>
+                        <p>+92 336-2414909</p>
+                    </li>
+    
+                    <li>
+                        <i class="fa-solid fa-envelope fa-2x  i-color mt-4"></i>
+                        <p>graphicx.mehfooz201@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <div class="text-center mb-5">
+
+        <a href="https://www.linkedin.com/in/mehfoozdev/" target="_blank"><i class="fa-brands fa-linkedin-in i-color me-3"></i></a>
+    
+        <a href="https://github.com/Mehfooz201" target="_blank"><i class="fa-brands fa-github i-color me-3"></i></a>
+    
+        <a href="https://www.behance.net/graphy_mehfooz" target="_blank"><i class="fa-brands fa-behance i-color me-3"></i></a>
+    
+        <a href="https://web.facebook.com/mehfooz.shayan2?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook i-color me-3"></i></a>
+        
+
+    
+    </div>
+
+{% endblock content %}
+
+
+

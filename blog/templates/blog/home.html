@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+
+{% load static %}
+
+
+
+{% block content %}
+
+    <div class="col-sm-10">
+        <h3 class="text-white my-5">Home Page</h3>
+
+        {% for post in posts %}
+
+            <div class="jumbotron jumbotron-fluid jumbo-col p-4 mb-4">
+                <div class="container">
+                <h4 class="display-5 fw-bold">{{post.title}}</h4>
+                <p class="lead">{{post.desc}}</p>
+                </div>
+            </div>
+        
+        {% endfor %}
+    </div>
+
+{% endblock content %}
+
+
+
